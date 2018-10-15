@@ -27,7 +27,7 @@ SECRET_KEY = env('SECRET_KEY', default='JQ#OI%R$HBN#IUJ%#($%U@#JUI*$R%UJQ#@')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '192.168.126.228', '.umbchvz.com']
 
 
 # Application definition
