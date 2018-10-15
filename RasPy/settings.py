@@ -27,7 +27,7 @@ SECRET_KEY = env('SECRET_KEY', default='JQ#OI%R$HBN#IUJ%#($%U@#JUI*$R%UJQ#@')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
