@@ -19,9 +19,11 @@ from django.conf.urls import include
 
 import IRControl.urls
 import WakeOnLAN.urls
+import InputSwitch.urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ir/', include(IRControl.urls)),
     path('wol/', include(WakeOnLAN.urls)),
+    path('input/', include(InputSwitch.urls)),
 ]

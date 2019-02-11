@@ -2,3 +2,4 @@ Django==2.1.2
 envs==1.2.6
 pytz==2018.5
 wakeonlan==1.1.6
+pyserial==3.4
