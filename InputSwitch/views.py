@@ -7,6 +7,6 @@ def input_switch(request):
     input = request.GET.get('input', "+")
 
     with serial.Serial('/dev/ttyUSB0', 19200) as ser:
-        ser.write(b'sw '+bytes(input)+b'\n')
+        ser.write(bytes('sw '+input+'\n', 'ascii'))
 
     return HttpResponse(status=204)
